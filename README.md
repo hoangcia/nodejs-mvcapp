@@ -1,6 +1,40 @@
 # nodejs-mvcapp
 Simple Node Restful API with MVC architecture
 This app require **NodeJs 11.x (or above)** and **Express 4.x** to run
+# Project structure
+```
+root
+|--config
+|  |--constants.js
+|  |--index.js
+|
+|--controllers
+|  |--scenario.js
+|
+|--models
+|  |--data
+|  |  |--scenario.json
+|  |  |--task.json
+|  |
+|  |--index.js
+|  |--models.scenario.js
+|  |--models.task.js
+|  |--validator.scenario.js
+|  
+|--routes
+|  |--api
+|  |  |--index.js
+|  |  |--scenario.js
+|  |
+|  |--index.js
+|  
+|--utilities
+|  |--expressionBuilder.js
+|
+|--app.js
+|--package.json
+|--README.md
+```
 # How to run
 1. Open Command Prompt or Terminal, go to project folder
 2. Type **"npm install"** to install standard libraries required for our app
